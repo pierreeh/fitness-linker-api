@@ -1,0 +1,35 @@
+{
+  "name": "fitness-linker-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "precommit": "eslint .",
+    "dev": "tsx watch src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "fastify-zod": "^1.4.0",
+    "pino": "^9.2.0",
+    "pino-pretty": "^11.2.1",
+    "zennv": "^0.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/node": "^20.14.8",
+    "eslint": "^8.22.0",
+    "globals": "^15.6.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1",
+    "zod-to-json-schema": "^3.23.1"
+  }
+}
