@@ -1,3 +1,4 @@
+// npx prisma generate - npx prisma db push
 import { PrismaClient } from "@prisma/client";
 
 declare global {
