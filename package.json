@@ -7,7 +7,7 @@
     "precommit": "eslint .",
     "build": "tsc -p tsconfig.json",
     "dev": "tsx watch src",
-    "test": ""
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "",
